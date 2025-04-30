@@ -13,6 +13,8 @@ pattern = r"mul\((\d{1,3}),(\d{1,3})\)"
 # Find all matches
 matches = re.findall(pattern, text)
 
+print('matches:', matches)
+
 total = 0
 # Process each match
 for match in matches:
